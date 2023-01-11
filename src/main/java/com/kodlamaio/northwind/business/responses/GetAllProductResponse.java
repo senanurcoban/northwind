@@ -9,9 +9,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class GetAllProductResponse {
 
-	
+	private int id;
 	private int categoryId;
 	private String name;
+	private String categoryName;
 	private double unitPrice;
 	private int unitsInStock;
 }
